@@ -261,6 +261,21 @@ margin-bottom: 50px;
     line-height: 24px;
 }
 
+.tech-skills {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.soft-skills {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+
 @media screen and (max-width:900px) {
     .wrapper {
         flex-direction: column;
@@ -270,6 +285,7 @@ margin-bottom: 50px;
 
     .main-content {
         padding: 30px;
+        width: 100%;
     }
 
     .sidebar {
