@@ -302,10 +302,30 @@ body {
 
         .skills-row {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             width: 100%;
             margin: 0 auto;
         }
+                .contacts {
+                    flex-direction: column;
+                    margin-top: 0;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+        
+                .tech-skills {
+                    flex-direction: column;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    margin-right: 0;
+                }
+        
+                .soft-skills {
+                    flex-direction: column;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    margin-right: 0;
+                }
 
     }
     
