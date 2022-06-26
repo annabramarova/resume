@@ -276,66 +276,66 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+    body {
+        width: 100%;
+    }
 
-body {
-    width: 100%;
-}
+    .wrapper {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
 
-.wrapper {
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-}
+    .photo {
+        width: 100%;
+        ;
+    }
 
-.photo {
-    width: 100%;
-    ;
-}
+    .sidebar {
+        display: flex;
+        width: 100%;
+    }
 
-.skills-row {
-    display: flex;
-}
+    .skills-row {
+        display: flex;
+    }
 
-.main-content {
-    padding: 20px 20px;
-    max-width: 900px;
-    width: 100%;
-    margin: 0 auto;
-}
+    .main-content {
+        padding: 20px 20px;
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
 
-.about {
-    padding: 20px 20px;
-    max-width: 900px;
-    width: 100%;
-    margin: 0 auto;
-}
+    .about_discription {
+        width: 100%;
+        margin: 0 auto;
+    }
 
+    .contacts {
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
-.contacts {
-    flex-direction: column;
-    margin-top: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+    .tech-skills {
+        flex-direction: column;
+        margin-top: 20;
+        margin-left: 20px;
+        margin-right: 0;
+    }
 
-.tech-skills {
-    flex-direction: column;
-    margin-top: 20;
-    margin-left: 20px;
-    margin-right: 0;
-}
-
-.soft-skills {
-    flex-direction: column;
-    margin-top: 20;
-    margin-left: 20px;
-    margin-right: 0;
-    margin-bottom: 40px;
-}
+    .soft-skills {
+        flex-direction: column;
+        margin-top: 20;
+        margin-left: 20px;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 600px) {
-
     .sidebar {
         flex-direction: column;
     }
@@ -362,10 +362,6 @@ body {
     }
 
     .about {
-        margin-bottom: 30px;
-    }
-
-    .about-description {
         margin-bottom: 30px;
     }
 
