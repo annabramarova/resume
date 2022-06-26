@@ -331,10 +331,6 @@ body {
     .sidebar {
         flex-direction: column;
     }
-    
-    .main-content {
-    flex-direction: column;
-    }
 
     .photo {
         width: 100%;
