@@ -6,7 +6,7 @@ body {
 /* mail styles */
 .wrapper {
 display: flex;
-flex-direction: row-reverse;
+flex-direction: row;
 width: 1200px;
 margin: 0px auto;
 box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
@@ -76,7 +76,7 @@ margin-bottom: 50px;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-       color: #000000;
+    color: #000000;
 }
 
 .project,
@@ -263,25 +263,25 @@ margin-bottom: 50px;
 
 @media screen and (max-width:900px) {
     .wrapper {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     
     .main-content {
-       padding: 30px;
+    padding: 30px;
     }
 
    .sidebar {
-       display: flex;
-       width: 100%;
+    display: flex;
+    width: 100%;
    }
 
    .skills-row {
-       display: flex;
+    display: flex;
    }
 
    .photo {
-       width: 50%;
-       height: 100%;
+    width: 50%;
+    height: 100%;
    }
 
    .contacts {
@@ -306,7 +306,7 @@ margin-bottom: 50px;
 @media screen and (max-width: 600px) {
 
     .sidebar {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .photo {
