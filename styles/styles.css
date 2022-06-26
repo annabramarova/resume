@@ -283,12 +283,12 @@ margin-bottom: 50px;
 
     .main-content {
         padding: 30px;
-        width: 100%;
+        width: 370 px;
     }
 
     .sidebar {
         display: flex;
-        width: 100%;
+        width: 370px;
     }
 
     .skills-row {
