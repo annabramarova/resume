@@ -284,9 +284,11 @@ body {
     }
 
     .main-content {
-        flex-direction: row;
-        padding: 30px;
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
     }
 
     .sidebar {
