@@ -308,8 +308,7 @@ body {
 
     .about_discription {
     width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;}
+    margin: 0 auto;}
         
 
     .contacts {
@@ -321,14 +320,14 @@ body {
 
     .tech-skills {
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 0;
         margin-left: 20px;
         margin-right: 0;
     }
 
     .soft-skills {
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 0;
         margin-left: 20px;
         margin-right: 0;
         margin-bottom: 40px;
