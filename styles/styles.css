@@ -279,16 +279,18 @@ margin-bottom: 50px;
 @media screen and (max-width:900px) {
     .wrapper {
         flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .main-content {
         padding: 30px;
-        width: 370 px;
+        width: 100%;
     }
 
     .sidebar {
         display: flex;
-        width: 370px;
+        width: 100%;
     }
 
     .skills-row {
