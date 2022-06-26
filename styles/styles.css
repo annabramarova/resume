@@ -267,8 +267,15 @@ margin-bottom: 50px;
     width: 100%;
     margin: 0 auto;
     }
-    
-.main-content {
+
+.about {
+        display: flex;
+        padding: 30px;
+        width: 100%;
+    }
+
+.projects {
+    display: flex;
     padding: 30px;
     width: 100%;
 }
