@@ -294,6 +294,7 @@ body {
 
     .sidebar {
         display: flex;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -321,6 +322,7 @@ body {
     }
 
     .tech-skills {
+        display: flex;
         flex-direction: column;
         margin-top: 0;
         margin-top: 20;
@@ -329,6 +331,7 @@ body {
     }
 
     .soft-skills {
+        display: flex;
         flex-direction: column;
         margin-top: 0;
         margin-top: 20;
