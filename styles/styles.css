@@ -262,22 +262,23 @@ margin-bottom: 50px;
 }
 
 @media screen and (max-width:900px) {
-.wrapper {
+
+body {
+    background-color: #080c0d;
+    width: 100%;}
+
+wrapper {
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
     }
-
-.about {
-        display: flex;
-        padding: 30px;
-        width: 100%;
-    }
-
-.projects {
-    display: flex;
-    padding: 30px;
+    
+.main-content {
+    flex-direction: column;
+    padding: 20px 20px;
+    max-width: 900px;
     width: 100%;
+    margin: 0 auto;
 }
 .sidebar {
     display: flex;
