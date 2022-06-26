@@ -262,50 +262,50 @@ margin-bottom: 50px;
 }
 
 @media screen and (max-width:900px) {
-.wrapper {
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    }
-    
-.main-content {
-    padding: 30px;
+    .wrapper {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
     }
 
-.sidebar {
-    display: flex;
-    width: 100%;
-}
+    .main-content {
+        padding: 30px;
+    }
 
-.skills-row {
-    display: flex;
-}
+    .sidebar {
+        display: flex;
+        width: 100%;
+    }
 
-.photo {
-    width: 50%;
-    height: 100%;
-}
+    .skills-row {
+        display: flex;
+    }
 
-.contacts {
+    .photo {
+        width: 50%;
+        height: 100%;
+    }
+
+    .contacts {
         flex-direction: column;
         margin-top: 0;
         margin-left: 20px;
         margin-right: 20px;
-}
-        
-.tech-skills {
+    }
+
+    .tech-skills {
         flex-direction: column;
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 0;
-}   
-    
-.soft-skills {
+    }
+
+    .soft-skills {
         flex-direction: column;
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 0;
-}  
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -330,7 +330,7 @@ margin-bottom: 50px;
         font-size: 30px;
     }
 
-    .about-position{
+    .about-position {
         margin-bottom: 10px;
     }
 
