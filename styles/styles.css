@@ -351,10 +351,12 @@ margin-bottom: 50px;
     }
 
     .about {
+        margin: 20px;
         margin-bottom: 30px;
     }
 
     .projects {
+        margin-right: 20px;
         margin-bottom: 30px;
     }
 
