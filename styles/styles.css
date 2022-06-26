@@ -276,11 +276,8 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-    body {
-        width: 100%;
-        }
 
-        .wrapper {
+.wrapper {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -289,6 +286,23 @@ body {
         .photo {
         width: 100%;
         }
+.contacts {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tech-skills {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.soft-skills {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+}
 
         .main-content {
         padding: 20px 20px;
@@ -307,23 +321,7 @@ body {
             width: 100%;
             margin: 0 auto;
         }
-                .contacts {
-                    margin-top: 0;
-                    margin-left: 20px;
-                    margin-right: 20px;
-                }
-        
-                .tech-skills {
-                    margin-top: 20px;
-                    margin-left: 20px;
-                    margin-right: 0;
-                }
-        
-                .soft-skills {
-                    margin-top: 20px;
-                    margin-left: 20px;
-                    margin-right: 0;
-                }
+                
 
     }
     
