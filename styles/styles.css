@@ -305,10 +305,6 @@ margin-bottom: 50px;
 
 @media screen and (max-width: 600px) {
 
-    .wrapper {
-            flex-direction: column-reverse;
-        }
-        
     .sidebar {
         flex-direction: column-reverse;
     }
