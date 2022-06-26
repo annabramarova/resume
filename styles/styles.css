@@ -307,11 +307,6 @@ body {
         margin: 0 auto;
     }
 
-    .about_discription {
-        width: 100%;
-        margin: 0 auto;
-    }
-
     .contacts {
         flex-direction: column;
         margin-top: 0;
@@ -321,6 +316,7 @@ body {
 
     .tech-skills {
         flex-direction: column;
+        margin-top: 0;
         margin-top: 20;
         margin-left: 20px;
         margin-right: 0;
@@ -328,6 +324,7 @@ body {
 
     .soft-skills {
         flex-direction: column;
+        margin-top: 0;
         margin-top: 20;
         margin-left: 20px;
         margin-right: 0;
