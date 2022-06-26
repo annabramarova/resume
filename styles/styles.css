@@ -288,7 +288,6 @@ body {
         flex-direction: column;
         width: 100%;
         padding: 30px;
-        box-sizing: border-box;
     }
 
     .sidebar {
@@ -329,13 +328,14 @@ body {
 
 @media screen and (max-width: 600px) {
     .sidebar {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .main-content {
         display: flex;
-        flex-direction: row;
-        width: 100%;}
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;}
 
     .photo {
         width: 100%;
