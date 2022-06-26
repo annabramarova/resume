@@ -278,100 +278,82 @@ body {
 @media screen and (max-width: 900px) {
 
 .wrapper {
-        display: flex;
         flex-direction: column;
-        width: 100%;
-        margin: 0 auto;}
+    }
 
-        .photo {
+.sidebar {
         width: 100%;
+        display: flex;
+    }
+
+.photo {
+        width: 50%;
+        height: 100%;
         }
+        
 .contacts {
     margin-top: 0;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.tech-skills {
-    margin-top: 20px;
+.tech-skills-container {
     margin-left: 20px;
     margin-right: 0;
-}
-
-.soft-skills {
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 0;
 }
 
-        .main-content {
-        padding: 20px 20px;
-        max-width: 900px;
-        width: 100%;
-        margin: 0 auto;}
-
-        .sidebar {
-        display: flex;
+.main-content {
+    padding: 30px;}
+}
+    
+@media screen and (max-width: 600px) {
+    .sidebar {
         flex-direction: column;
     }
 
-        .skills-row {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin: 0 auto;
-        }
-                
-
+    .photo {
+        width: 100%;
     }
-    
-        @media screen and (max-width: 600px) {
-            .sidebar {
-                flex-direction: column;
-            }
-    
-            .photo {
-                width: 100%;
-            }
-    
-            .sidebar-row {
-                margin-top: 20px;
-            }
-    
-            .sidebar-title {
-                font-size: 18px;
-                margin-bottom: 10px;
-            }
-    
-            .about-name {
-                font-size: 30px;
-            }
-    
-            .about-position {
-                margin-bottom: 10px;
-            }
-    
-            .about {
-                margin-bottom: 30px;
-            }
-    
-            .projects {
-                margin-bottom: 30px;
-            }
-    
-            .title {
-                font-size: 18px;
-            }
-    
-            .education {
-                margin-top: 30px;
-            }
-    
-            .work-position {
-                margin-bottom: 0;
-            }
-    
-            .work-list {
-                margin-top: 0;
-            }
-        }
+
+    .sidebar-row {
+        margin-top: 20px;
+    }
+
+    .sidebar-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .about-name {
+        font-size: 30px;
+    }
+
+    .about-position {
+        margin-bottom: 10px;
+    }
+
+    .about {
+        margin-bottom: 30px;
+    }
+
+    .projects {
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .education {
+        margin-top: 30px;
+    }
+
+    .work-position {
+        margin-bottom: 0;
+    }
+
+    .work-list {
+        margin-top: 0;
+    }
+}
