@@ -286,6 +286,12 @@ body {
         width: 100%;
         margin: 0 auto;}
 
+        .sidebar {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+
         .photo {
         width: 100%;
         }
@@ -295,6 +301,28 @@ body {
         max-width: 900px;
         width: 100%;
         margin: 0 auto;}
+
+        .contacts {
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+    
+        .tech-skills {
+            flex-direction: column;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 0;
+        }
+    
+        .soft-skills {
+            flex-direction: column;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 0;
+        }
+        }
         
         .about_discription {
         width: 100%;
