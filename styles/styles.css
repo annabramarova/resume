@@ -306,7 +306,9 @@ body {
     margin: 0 auto;
     }
 
-    .about_discription {
+    .about {
+    padding: 20px 20px;
+    max-width: 900px;
     width: 100%;
     margin: 0 auto;}
         
