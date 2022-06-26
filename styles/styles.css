@@ -276,11 +276,6 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-    
-body {
-    width: 100%;
-        }
-    
         .wrapper {
             flex-direction: column;
             width: 100%;
