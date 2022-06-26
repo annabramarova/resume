@@ -267,14 +267,14 @@ margin-bottom: 50px;
         width: 100%;
     }
     .wrapper {
-        flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
     }
     
     .main-content {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 20px;
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
@@ -294,24 +294,21 @@ margin-bottom: 50px;
 }
 
 .contacts {
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 0;
         margin-left: 20px;
         margin-right: 20px;
 }
         
 .tech-skills {
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 0;
 }   
     
 .soft-skills {
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 0;
@@ -324,7 +321,8 @@ margin-bottom: 50px;
     }
 
     .photo {
-        width: 100%;
+        width: 50%;
+        height: 100%;
     }
 
     .sidebar-row {
