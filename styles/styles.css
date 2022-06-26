@@ -262,49 +262,63 @@ margin-bottom: 50px;
 }
 
 @media screen and (max-width:900px) {
+    body {
+        background-color: #080c0d;
+        width: 100%;
+    }
     .wrapper {
         flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
     }
     
     .main-content {
+    background-color: #ffffff;
     padding: 30px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
     }
 
-   .sidebar {
+.sidebar {
     display: flex;
     width: 100%;
-   }
+}
 
-   .skills-row {
+.skills-row {
     display: flex;
-   }
+}
 
-   .photo {
-    width: 50%;
-    height: 100%;
-   }
+.photo {
+    width: 100%;
+}
 
-   .contacts {
+.contacts {
+        display: flex;
+        flex-direction: row;
         margin-top: 0;
         margin-left: 20px;
         margin-right: 20px;
-   }
+}
         
-   .tech-skills {
+.tech-skills {
+        display: flex;
+        flex-direction: row;
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 0;
-    }   
+}   
     
-    .soft-skills {
+.soft-skills {
+        display: flex;
+        flex-direction: row;
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 0;
-    }  
+}  
 }
 
 @media screen and (max-width: 600px) {
-
     .sidebar {
         flex-direction: column;
     }
