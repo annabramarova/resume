@@ -284,8 +284,7 @@ body {
     }
 
     .main-content {
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding: 30px;
         width: 100%;
     }
@@ -330,6 +329,8 @@ body {
     .sidebar {
         flex-direction: column;
     }
+    .main-content {
+    flex-direction: row;
 
     .photo {
         width: 100%;
