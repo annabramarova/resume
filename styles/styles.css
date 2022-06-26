@@ -329,12 +329,12 @@ body {
 
 @media screen and (max-width: 600px) {
     .sidebar {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .main-content {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;}
 
     .photo {
