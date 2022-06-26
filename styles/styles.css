@@ -279,8 +279,6 @@ margin-bottom: 50px;
 @media screen and (max-width:900px) {
     .wrapper {
         flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
     }
 
     .main-content {
