@@ -262,7 +262,6 @@ margin-bottom: 50px;
 }
 
 @media screen and (max-width:900px) {
-    
 .wrapper {
     flex-direction: column;
     width: 100%;
@@ -270,10 +269,8 @@ margin-bottom: 50px;
     }
     
 .main-content {
-    display: flex;
     padding: 30px;
-    width: 100%;
-}
+    }
 
 .sidebar {
     display: flex;
