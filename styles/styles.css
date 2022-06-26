@@ -280,7 +280,6 @@ body {
     .wrapper {
     flex-direction: column;
     width: 100%;
-    margin: 0 auto;
 }
 
     .photo {
@@ -303,11 +302,6 @@ body {
         width: 100%;
         margin: 0 auto;
     }
-
-    .about_discription {
-    width: 100%;
-    width: 100%;
-    margin: 0 auto;}
 
     .contacts {
         margin-top: 0;
