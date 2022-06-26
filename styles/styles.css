@@ -262,22 +262,14 @@ margin-bottom: 50px;
 }
 
 @media screen and (max-width:900px) {
-    body {
-        background-color: #080c0d;
-        width: 100%;
-    }
-    .wrapper {
+.wrapper {
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
     }
     
-    .main-content {
-    background-color: #ffffff;
-    padding: 20px;
-    max-width: 900px;
-    width: 100%;
-    margin: 0 auto;
+.main-content {
+    padding: 30px;
     }
 
 .sidebar {
@@ -290,7 +282,8 @@ margin-bottom: 50px;
 }
 
 .photo {
-    width: 100%;
+    width: 50%;
+    height: 100%;
 }
 
 .contacts {
@@ -321,8 +314,7 @@ margin-bottom: 50px;
     }
 
     .photo {
-        width: 50%;
-        height: 100%;
+        width: 100%;
     }
 
     .sidebar-row {
