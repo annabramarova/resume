@@ -281,11 +281,10 @@ body {
     }
 
     .wrapper {
-    display: flex;
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-  }
+}
 
     .photo {
         width: 50%;
@@ -294,7 +293,6 @@ body {
 
     .sidebar {
         display: flex;
-        flex-direction: column;
         width: 100%;
     }
 
@@ -303,7 +301,7 @@ body {
     }
 
     .main-content {
-        padding: 20px 20px;
+        padding: 30px;
         max-width: 900px;
         width: 100%;
         margin: 0 auto;
@@ -315,25 +313,18 @@ body {
     margin: 0 auto;}
 
     .contacts {
-        flex-direction: column;
         margin-top: 0;
         margin-left: 20px;
         margin-right: 20px;
     }
 
     .tech-skills {
-        display: flex;
-        flex-direction: column;
-        margin-top: 0;
         margin-top: 20;
         margin-left: 20px;
         margin-right: 0;
     }
 
     .soft-skills {
-        display: flex;
-        flex-direction: column;
-        margin-top: 0;
         margin-top: 20;
         margin-left: 20px;
         margin-right: 0;
