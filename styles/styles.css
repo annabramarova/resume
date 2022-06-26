@@ -268,12 +268,9 @@ margin-bottom: 50px;
     margin: 0 auto;
     }
     
-.about {
+.main-content {
     padding: 30px;
-    }
-
-.projects {
-    padding: 30px;
+    width: 100%;
 }
 .sidebar {
     display: flex;
