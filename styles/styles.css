@@ -328,6 +328,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .sidebar {
         flex-direction: column;
     }
