@@ -281,14 +281,15 @@ body {
     }
 
     .wrapper {
-        flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
-    }
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
 
     .photo {
-        width: 100%;
-        ;
+        width: 50%;
+        height: 100%;
     }
 
     .sidebar {
@@ -306,6 +307,11 @@ body {
         width: 100%;
         margin: 0 auto;
     }
+
+    .about_discription {
+    width: 100%;
+    width: 100%;
+    margin: 0 auto;}
 
     .contacts {
         flex-direction: column;
@@ -328,7 +334,6 @@ body {
         margin-top: 20;
         margin-left: 20px;
         margin-right: 0;
-        margin-bottom: 40px;
     }
 }
 
