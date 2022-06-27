@@ -286,13 +286,13 @@ body {
         display: flex;
     }
 
-.skills-row {
-    display: flex;
-    }
+.tech-skills-row {
+        display: flex;}
 
 .photo {
-        width: 100%;
-        }
+        width: 50%;
+        height: 100%;
+    }
         
 .contacts {
     margin-top: 0;
