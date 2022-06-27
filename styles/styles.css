@@ -1,10 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
-    padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 20px;
-        padding-right: 20px;
 }
 
 /* mail styles */
@@ -179,7 +175,6 @@ body {
 .sidebar {
     background-color: #1E2939;
     padding-top: 40px;
-    padding-bottom: 40px;
     width: 370px;
 }
 
@@ -198,12 +193,6 @@ body {
     width: 370px;
     margin-bottom: 50px;
 }
-
-.main-content {
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 110px;
-    padding-bottom: 110px;}
 
 .contacts,
 .tech-skills,
