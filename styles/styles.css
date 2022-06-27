@@ -286,6 +286,10 @@ body {
         display: flex;
     }
 
+.skills-row {
+    display: flex;
+    }
+
 .photo {
         width: 50%;
         height: 100%;
